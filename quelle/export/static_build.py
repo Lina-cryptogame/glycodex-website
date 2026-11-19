@@ -91,6 +91,7 @@ def assets():
             im.save(OUT + "assets/img/%s.webp" % name, "WEBP", quality=84, method=6)
     shutil.copy("/home/claude/handbuch/img/icon.svg", OUT + "assets/img/logo.svg")
     shutil.copy("/home/claude/handbuch/img/icon180.png", OUT + "assets/img/apple-touch-icon.png")
+    Image.open("/home/claude/handbuch/img/icon180.png").convert("RGBA").save(OUT + "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
     # Schrift: nur Latein und Kyrillisch, als variable Schrift
     css = open(FONT + "wght.css", encoding="utf-8").read()
     faces = []
