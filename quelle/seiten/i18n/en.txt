@@ -1,0 +1,296 @@
+0	Skip to content
+1	Glyco<b>dex</b>
+2	Features
+3	How it works
+4	For diabetes care teams
+5	Partnerships
+6	Contact
+7	<sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}">⟦0⟧</sc-if><sc-if value="{{menuClosed}}" hint-placeholder-val="{{true}}">⟦1⟧</sc-if>Menu
+8	Private diabetes diary
+9	Your diabetes data. Finally clear.
+10	Glycodex turns the data from your pump and sensor into a calm overview, a diary and personal patterns. Developed by a patient with type 1 diabetes, for everyday life with a closed loop.
+11	Discover Glycodex
+12	Get in touch
+13	288
+14	sensor readings a day, in order
+15	5
+16	ranges based on international consensus
+17	0
+18	dosing tips, promised
+19	5 ranges based on international consensus
+20	Time in range, glucose profile and key metrics. With your personal target range alongside.
+21	Feelings meet data
+22	Mood, tags and notes sit right next to the daily curve.
+23	All images show made-up test data.
+24	Why Glycodex
+25	About 26,000 readings in three months. And hardly any answers.
+26	01
+27	Lots of data, little understanding
+28	Portals show the numbers. What they say about your everyday life often stays unclear.
+29	02
+30	The closed loop works out of sight
+31	When the algorithm steps in and what happens next is hard to follow in everyday life.
+32	03
+33	Feelings and data kept apart
+34	How a day felt is never shown next to what the sensor measured.
+35	What Glycodex does
+36	Everything you want to know about your numbers. Told calmly.
+37	Calm overview
+38	Time in range, glucose profile and key metrics based on international consensus. With your personal target range alongside.
+39	Auto mode made visible
+40	Glycodex shows when the closed loop increased or paused delivery and what happened next. Described, not judged.
+41	Mood, tags and notes sit in the diary right next to the daily curve of glucose, insulin, meals and activity.
+42	Your Codex
+43	Personal patterns as numbered pages, each showing how well established it is. A reference book about you.
+44	Dextro, your companion
+45	An AI companion that knows your data and answers in plain language. No dosing or therapy recommendations.
+46	For your diabetes care team
+47	A report as a PDF and read-only access, also as a one-time link for an appointment. You decide who sees what.
+48	Body map
+49	Change your infusion set and tubing with the insertion site marked on a rotatable body map, with a memory of earlier sites and a distance warning.
+50	⟦0⟧Try it yourself: turn the body and tap a spot.
+51	From export to overview in three steps.
+52	1
+53	Export
+54	The data from your pump and sensor come together in Glooko. That is where the export comes from, as a file to download.
+55	2
+56	Upload and add
+57	Glycodex reads the export and organises the readings. You can add your own entries such as mood, notes, activity and blood pressure.
+58	3
+59	Understand
+60	Overview, diary, patterns and Codex show what is in your data. For your next appointment there is the report as a PDF.
+61	Why an export? Glooko offers no public interface for private individuals. That is why Glycodex works with the manual export and shows no real-time data.
+62	A closer look
+63	This is what everyday life looks like in Glycodex.
+64	Images with made-up test data. The app itself is currently in German.
+65	Time in range
+66	Based on consensus, with your personal target range alongside.
+67	Daily curve
+68	Glucose, insulin, meals and activity in one curve, with mood and notes alongside.
+69	Personal patterns as numbered pages, each showing how well established it is.
+70	Dextro
+71	Answers in plain language. No dosing or therapy recommendations.
+72	Our stance
+73	Built by someone who knows what a bumpy day feels like.
+74	Describe, don't judge
+75	A day is bumpy, never bad. Glycodex says what is in the data and never looks for blame.
+76	Sticking with it counts
+77	XP is earned for logging and staying with it, not for numbers. Badges celebrate the good days.
+78	Your data belongs to you
+79	Encrypted on a private server, with no ads. You decide who gets access.
+80	Clinically sound
+81	Ranges, targets and key metrics follow international recommendations. If there is not enough data, Glycodex says so openly.
+82	Who it is for
+83	My diary today. Meant for many.
+84	Glycodex grew out of my own everyday life. Many people with diabetes ask the questions it answers.
+85	People with a sensor and pump
+86	Tested with YpsoPump, CamAPS FX and Dexcom G7. The data comes from the Glooko export.
+87	Anyone who wants to understand their closed loop
+88	What does the algorithm do, and what can I still improve myself?
+89	Current status
+90	To be honest
+91	Today, Glycodex is a private project that I use every day. It is not a medical device and is not available for download. So that it can help many people, I am looking for partnerships in medical technology and the community.
+92	Diabetes care teams
+93	A clear report before the appointment, read-only access instead of piles of paper.
+94	More for diabetes care teams
+95	Medical technology companies
+96	Concept, prototype and a patient's perspective.
+97	More on partnerships
+98	About me
+99	I'm Lina.
+100	I have lived with type 1 diabetes since 2013. After years of pens, high readings and a lot of fatigue, I have been using a closed loop since September 2026. I designed, shaped and built Glycodex on my own, with the help of AI. Alongside my job in a municipal administration, I work intensively with AI, web design and app development.
+101	“I wanted to give those 26,000 sensor readings a form. To make visible what the condition is doing inside me.”
+102	Lina Schröder
+103	Project status
+104	Born from everyday life. Tested in everyday life.
+105	September 2026
+106	The trigger
+107	With the closed loop came the question of what the algorithm actually does.
+108	Before building
+109	Research and principles
+110	Existing apps, medical device law, the EU AI Act and data protection. Plus clear rules on what Glycodex never does.
+111	Early November 2026
+112	First version
+113	Overview, diary and patterns run with my real data.
+114	11 November 2026
+115	Live on a private server
+116	With sign-in, encrypted storage and read-only access for my diabetes care team.
+117	Next up
+118	Partnerships and community
+119	Conversations with medical technology companies and exchange with the diabetes community on social media.
+120	Frequently asked questions
+121	Answered briefly.
+122	Your question is missing? <a class="tl" href="#kontakt">Write to me.</a>
+123	Can I use Glycodex?⟦0⟧
+124	Not yet. Glycodex is a private project that only I use. If I passed it on to others, it would very likely be a medical device. That requires a company with quality management and regulatory approval. That is exactly why I am looking for partnerships.
+125	Does Glycodex give insulin dosing recommendations?⟦0⟧
+126	No. Glycodex describes data and gives no therapy or dosing recommendations. The app only phrases questions about settings as questions for your diabetes care team.
+127	Which devices does Glycodex work with?⟦0⟧
+128	Glycodex has been tested with YpsoPump, CamAPS FX and Dexcom G7. The data comes from the Glooko export. I have not tested other devices so far.
+129	Where is the data stored?⟦0⟧
+130	Encrypted on my own server. There is a sign-in, roles and read-only access. I decide who gets access. There are no ads.
+131	What is Dextro?⟦0⟧
+132	Dextro is the AI companion in Glycodex. It knows the data and answers questions in plain language, without dosing or therapy recommendations. Dextro uses a language model from Anthropic. To answer, the data needed for that answer is sent to this service.
+133	Who is behind Glycodex?⟦0⟧
+134	Me, Lina Schröder, as a private individual. Glycodex is independent and has no connection to the companies mentioned.
+135	How can I help?⟦0⟧
+136	Tell me what you are missing in your data, and share Glycodex with people who might be interested. If you work in medical technology, I would be glad to have a first conversation.
+137	Let's talk.
+138	Community
+139	Tell me what you are missing in your data. Every piece of feedback makes Glycodex better.
+140	Write to me
+141	Concept, prototype and a patient's perspective. I am happy to send you the short profile.
+142	Request short profile
+143	How Glycodex calculates and what the report shows is set out in a short information sheet.
+144	Request information sheet
+145	Or directly:
+146	⟦0⟧lina.schroeder@autarkflow.de
+147	Show phone number
+148	{{telText}}
+149	Your email program is about to open
+150	The message to lina.schroeder@autarkflow.de is ready with the subject “{{mailSubject}}”. No email program set up? Then simply write directly to this address.
+151	Please do not send me any health data such as glucose readings or medical findings.
+152	Write an email
+153	Keep reading for now
+154	⟦0⟧Instagram<span class="soon-b">coming soon</span>
+155	Home
+156	Legal notice
+157	Privacy
+158	© 2026 Lina Schröder · Delitzsch, Germany
+159	Glycodex describes data and gives no therapy or dosing recommendations. Not a medical device. Independent of the companies mentioned. In an emergency: 112.
+160	Glycodex home
+161	Main navigation
+162	Change colour scheme
+163	Menu
+164	Glycodex overview with time in range
+165	Daily curve with glucose, insulin and activity
+166	Time in range in the Glycodex overview
+167	Auto mode analysis in Glycodex
+168	Time in range with target markers
+169	Pages in the personal Codex
+170	Dextro with suggested questions
+171	More pages
+172	Transparent calculations. Calm presentation.
+173	Glycodex is a private diabetes diary that I, a patient with type 1 diabetes, designed and built myself. Here you can see what the app shows, how it calculates and what it deliberately does not do.
+174	Request information sheet
+175	About the methodology
+176	<b style="font-weight: 500">Important:</b> Glycodex describes data. The app gives no therapy or dosing recommendations and is not a medical device. It only phrases questions about settings as questions for the diabetes care team.
+177	What Glycodex shows
+178	Four areas, one data source.
+179	It is based on the Glooko exports with the data from YpsoPump, CamAPS FX and Dexcom G7, plus personal entries such as mood, notes, activity and blood pressure.
+180	Overview
+181	Time in ranges, based on consensus or a personal target range, and glucose profile (AGP).
+182	Diary
+183	Daily curve with glucose, bolus, basal, carbohydrates, activity and personal entries.
+184	Patterns · Clinical
+185	Key metrics, events, hypo analysis, nights and daily profiles.
+186	04
+187	Patterns · Technical
+188	Auto mode analysis. The events are derived from basal and glucose and do not appear as such in the export.
+189	Methodology
+190	How Glycodex calculates.
+191	I checked the key metrics against an independent reference calculation.
+192	Basis
+193	International consensus on time in range (Battelino et al., Diabetes Care 2019) and consensus on CGM metrics (Battelino et al., Lancet Diabetes Endocrinol 2023)
+194	Data requirements
+195	At least 14 days and 70 % sensor time. Otherwise the app points this out.
+196	Events
+197	Start and end after 15 minutes. Extended hypoglycaemia over 120 minutes. Extended hyperglycaemia at 90 out of 120 minutes above 13.9 mmol/L.
+198	Derived values
+199	GMI according to Bergenstal et al. 2018, GRI according to Klonoff et al. 2023
+200	Data specifics
+201	Readings above the measuring range count as “very high”. If a value is recorded twice, the CamAPS value applies.
+202	Target range
+203	Consensus (3.9 to 10.0 mmol/L) or a freely adjustable personal target range. In the report, the consensus remains the default.
+204	For the appointment
+205	Look instead of paperwork.
+206	The report as a PDF
+207	For appointments, Glycodex creates a report that sums up the most important pages at a glance.
+208	Key metrics based on consensus
+209	Glucose profile and times of day
+210	Questions for the diabetes care team
+211	Daily profiles
+212	Auto mode analysis
+213	Read-only access
+214	Your own login with a password. View only, no changes possible.
+215	One-time link
+216	For a single appointment. The link works exactly once and then gives access for a few hours.
+217	⟦0⟧The data is stored encrypted on my own server. I decide who has access.
+218	Limits
+219	What Glycodex is not.
+220	Not a medical device and no substitute for the assessment by the diabetes care team
+221	Depends on the manual Glooko export, no real-time data
+222	The auto mode analysis is a derived observation, not information from the manufacturer
+223	I very much welcome feedback from a professional perspective.
+224	I am happy to send you the information sheet for diabetes care teams. On request, I can also show Glycodex in a live demo with test data.
+225	For medical technology companies
+226	Diabetes data from a patient's perspective. With a working prototype.
+227	Glycodex reads the exports from Glooko and turns pump and sensor data into a calm, clear overview. I use the app every day. So that it can help many people, I am looking for partnerships.
+228	What I am looking for
+229	Starting point
+230	288 readings a day. Shown, but hardly explained.
+231	Existing portals show the numbers but hardly explain them from the perspective of the people who live with them.
+232	The closed loop stays invisible
+233	When and how the algorithm steps in is hard to follow in everyday life.
+234	Wellbeing and data kept apart
+235	In my research I found no app that connects mood, notes and everyday life with the measured values in this way.
+236	Data path
+237	With CamAPS, the data runs through Glooko. There is no public interface for private individuals there, only the manual export.
+238	Status today
+239	Used daily
+240	A prototype in real everyday life.
+241	Technology
+242	Web app on a private server, encrypted storage, roles, read-only access and one-time links
+243	Data
+244	Glooko export, uploaded manually, plus personal entries
+245	Devices
+246	Tested with YpsoPump, CamAPS FX and Dexcom G7
+247	Testing
+248	Key metrics checked against an independent reference calculation. Safari not yet systematically tested.
+249	Legal status
+250	Not a medical device, purely for personal use
+251	All features on the home page
+252	Why partnerships
+253	Reaching many takes more than an idea.
+254	If I passed Glycodex on to others, it would very likely be a medical device. That requires a company with quality management, regulatory approval and direct access to the device data.
+255	What I bring
+256	The inside view. And the work behind it.
+257	Patient's perspective
+258	The view of a patient with a closed loop who wants to understand her data
+259	Well-thought-out concept
+260	With principles, a brand system and a consistent voice
+261	Working prototype
+262	Used daily and continuously developed
+263	AI-assisted development
+264	Experience in concept and design, professionally through a registered side business
+265	05
+266	Close to the community
+267	The plan to reach the diabetes community on social media
+268	06
+269	Documented
+270	I am happy to send the detailed handbook on how it was built on request.
+271	How Glycodex came about
+272	Self-directed, step by step.
+273	Built with Claude by Anthropic. The idea, requirements, design, testing and sign-off of every version were my responsibility.
+274	Research before building
+275	Pain points of people with diabetes, existing apps, medical device law, the EU AI Act and data protection
+276	Setting principles
+277	Privacy first, describe instead of judge, no dosing recommendations, calm design
+278	Developing the brand
+279	Name, logo and a brand system with colours, typography and voice
+280	4
+281	Building in short cycles
+282	Notes from everyday life, suggestions and questions, implementation, testing, approval
+283	Running it securely
+284	Private server and domain, sign-in, roles, one-time links and encryption
+285	6
+286	Fine-tuning
+287	Three design rounds. Before and after every change, all displayed figures were compared.
+288	A first conversation.
+289	I would be glad to show Glycodex in a live demo with test data. Many things are possible, for example:
+290	a professional exchange
+291	working together on an interface for people with diabetes
+292	a licence
+293	a partnership for further development
+294	Let's talk about Glycodex.
+295	I am happy to send you the short profile for medical technology companies.

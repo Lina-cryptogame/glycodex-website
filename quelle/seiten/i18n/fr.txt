@@ -1,0 +1,296 @@
+0	Aller au contenu
+1	Glyco<b>dex</b>
+2	Fonctions
+3	Comment ça marche
+4	Pour les équipes soignantes
+5	Partenariats
+6	Contact
+7	<sc-if value="{{menuOpen}}" hint-placeholder-val="{{false}}">⟦0⟧</sc-if><sc-if value="{{menuClosed}}" hint-placeholder-val="{{true}}">⟦1⟧</sc-if>Menu
+8	Journal privé du diabète
+9	Vos données de diabète. Enfin compréhensibles.
+10	Glycodex transforme les données de la pompe et du capteur en une vue d’ensemble apaisée, un journal et des schémas personnels. Développé par une patiente atteinte de diabète de type 1, pour le quotidien en boucle fermée.
+11	Découvrir Glycodex
+12	Prendre contact
+13	288
+14	valeurs du capteur par jour, triées
+15	5
+16	plages selon le consensus international
+17	0
+18	conseil de dose, promis
+19	5 plages selon le consensus international
+20	Temps dans la cible, profil glycémique et indicateurs clés. Avec votre plage cible personnelle à côté.
+21	Le ressenti rencontre les valeurs
+22	Humeur, étiquettes et notes se trouvent juste à côté de la courbe de la journée.
+23	Toutes les images montrent des données de test fictives.
+24	Pourquoi Glycodex
+25	Environ 26 000 valeurs en trois mois. Et presque aucune réponse.
+26	01
+27	Beaucoup de données, peu de compréhension
+28	Les portails affichent les valeurs. Ce qu’elles disent de votre quotidien reste souvent flou.
+29	02
+30	La boucle fermée agit dans l’ombre
+31	Quand l’algorithme intervient et ce qui se passe ensuite est difficile à suivre au quotidien.
+32	03
+33	Ressenti et valeurs séparés
+34	Le ressenti d’une journée n’apparaît jamais à côté de ce que le capteur a mesuré.
+35	Ce que fait Glycodex
+36	Tout ce que vous voulez savoir sur vos valeurs. Raconté avec calme.
+37	Vue d’ensemble apaisée
+38	Temps dans la cible, profil glycémique et indicateurs clés selon le consensus international. Avec votre plage cible personnelle à côté.
+39	Le mode Auto rendu visible
+40	Glycodex montre quand la boucle fermée a augmenté ou suspendu l’administration et ce qui s’est passé ensuite. Décrit, sans jugement.
+41	Humeur, étiquettes et notes figurent dans le journal, juste à côté de la courbe de glucose, d’insuline, des repas et de l’activité.
+42	Votre Codex
+43	Des schémas personnels sous forme de pages numérotées, avec pour chacun son degré de fiabilité. Un ouvrage de référence sur vous.
+44	Dextro, votre compagnon
+45	Un compagnon IA qui connaît vos données et répond dans un langage simple. Sans recommandation de dose ni de traitement.
+46	Pour votre équipe soignante
+47	Un rapport en PDF et des accès en lecture, aussi sous forme de lien à usage unique pour un rendez-vous. Vous décidez qui voit quoi.
+48	Carte du corps
+49	Changement de cathéter et de tubulure avec le site d’insertion sur une carte du corps orientable, avec mémoire des sites précédents et alerte de distance.
+50	⟦0⟧Essayez vous-même : faites tourner le corps et touchez un endroit.
+51	De l’export à la vue d’ensemble en trois étapes.
+52	1
+53	Exporter
+54	Les données de la pompe et du capteur sont réunies dans Glooko. C’est de là que vient l’export, sous forme de fichier à télécharger.
+55	2
+56	Importer et compléter
+57	Glycodex lit l’export et classe les valeurs. S’y ajoutent vos propres saisies : humeur, notes, activité et tension artérielle.
+58	3
+59	Comprendre
+60	Vue d’ensemble, journal, schémas et Codex montrent ce que contiennent les données. Pour le prochain rendez-vous, il y a le rapport en PDF.
+61	Pourquoi un export ? Glooko ne propose pas d’interface publique aux particuliers. C’est pourquoi Glycodex fonctionne avec l’export manuel et n’affiche pas de données en temps réel.
+62	Aperçu
+63	Voici à quoi ressemble votre quotidien dans Glycodex.
+64	Images avec des données de test fictives. L’application est pour l’instant en allemand.
+65	Temps dans la cible
+66	Selon le consensus, avec votre plage cible personnelle à côté.
+67	Courbe de la journée
+68	Glucose, insuline, repas et activité sur une même courbe, avec l’humeur et les notes à côté.
+69	Des schémas personnels sous forme de pages numérotées, avec pour chacun son degré de fiabilité.
+70	Dextro
+71	Répond dans un langage simple. Sans recommandation de dose ni de traitement.
+72	Notre approche
+73	Conçu par quelqu’un qui sait ce que l’on ressent lors d’une journée difficile.
+74	Décrire plutôt que juger
+75	Une journée peut être difficile, jamais mauvaise. Glycodex dit ce que contiennent les données et ne cherche pas de coupable.
+76	La régularité compte
+77	Les XP récompensent la saisie et la persévérance, pas les valeurs. Les badges célèbrent les bonnes journées.
+78	Vos données vous appartiennent
+79	Chiffrées sur un serveur privé, sans publicité. Vous décidez qui y a accès.
+80	Rigueur clinique
+81	Plages, valeurs cibles et indicateurs suivent les recommandations internationales. Si les données ne suffisent pas, Glycodex le dit clairement.
+82	Pour qui
+83	Aujourd’hui mon journal. Pensé pour beaucoup.
+84	Glycodex est né de mon propre quotidien. Les questions auxquelles il répond, beaucoup de personnes diabétiques se les posent.
+85	Personnes avec capteur et pompe
+86	Testé avec YpsoPump, CamAPS FX et Dexcom G7. Les données proviennent de l’export Glooko.
+87	Toutes les personnes qui veulent comprendre leur boucle fermée
+88	Que fait l’algorithme, et que puis-je encore améliorer moi-même ?
+89	État actuel
+90	En toute honnêteté
+91	Aujourd’hui, Glycodex est un projet privé que j’utilise moi-même chaque jour. Ce n’est pas un dispositif médical et il n’est pas proposé au téléchargement. Pour qu’il puisse aider beaucoup de monde, je cherche des partenariats dans les technologies médicales et la communauté.
+92	Équipes soignantes
+93	Un rapport clair avant le rendez-vous, un accès en lecture au lieu d’une pile de papiers.
+94	Plus pour les équipes soignantes
+95	Entreprises de technologies médicales
+96	Concept, prototype et le regard d’une patiente.
+97	En savoir plus sur les partenariats
+98	À propos
+99	Je m’appelle Lina.
+100	Je vis avec un diabète de type 1 depuis 2013. Après des années de stylo, de glycémies élevées et de grande fatigue, j’utilise une boucle fermée depuis septembre 2026. J’ai conçu, mis en forme et réalisé Glycodex moi-même, avec l’aide de l’IA. À côté de mon travail dans une administration municipale, je m’intéresse de près à l’IA, au web design et au développement d’applications.
+101	« Je voulais donner une forme à ces 26 000 valeurs du capteur. Rendre visible ce que la maladie fait en moi. »
+102	Lina Schröder
+103	Avancement du projet
+104	Né du quotidien. Éprouvé au quotidien.
+105	Septembre 2026
+106	Le déclic
+107	Avec la boucle fermée vient la question de ce que fait réellement l’algorithme.
+108	Avant la réalisation
+109	Recherche et principes
+110	Applications existantes, réglementation des dispositifs médicaux, règlement européen sur l’IA et protection des données. Et des règles claires sur ce que Glycodex ne fait jamais.
+111	Début novembre 2026
+112	Première version
+113	Vue d’ensemble, journal et schémas fonctionnent avec mes vraies données.
+114	11 novembre 2026
+115	En ligne sur un serveur privé
+116	Avec connexion, stockage chiffré et accès en lecture pour mon équipe soignante.
+117	Prochaine étape
+118	Partenariats et communauté
+119	Échanges avec les technologies médicales et avec la communauté diabète sur les réseaux sociaux.
+120	Questions fréquentes
+121	En bref.
+122	Votre question n’y est pas ? <a class="tl" href="#kontakt">Écrivez-moi.</a>
+123	Puis-je utiliser Glycodex ?⟦0⟧
+124	Pas encore. Glycodex est un projet privé que je suis seule à utiliser. Si je le diffusais, il s’agirait très probablement d’un dispositif médical. Cela nécessite une entreprise disposant d’un système de management de la qualité et d’une certification. C’est précisément pour cela que je cherche des partenariats.
+125	Glycodex donne-t-il des recommandations de dose d’insuline ?⟦0⟧
+126	Non. Glycodex décrit des données et ne donne aucune recommandation de traitement ni de dose. Les questions de réglage, l’application les formule uniquement comme des questions à poser à l’équipe soignante.
+127	Avec quels appareils Glycodex fonctionne-t-il ?⟦0⟧
+128	Glycodex a été testé avec YpsoPump, CamAPS FX et Dexcom G7. Les données proviennent de l’export Glooko. Je n’ai pas encore testé d’autres appareils.
+129	Où sont stockées les données ?⟦0⟧
+130	Chiffrées sur mon propre serveur. Il y a une connexion, des rôles et des accès en lecture. Je décide qui y a accès. Il n’y a pas de publicité.
+131	Qu’est-ce que Dextro ?⟦0⟧
+132	Dextro est le compagnon IA de Glycodex. Il connaît les données et répond aux questions dans un langage simple, sans recommandation de dose ni de traitement. Dextro utilise un modèle de langage d’Anthropic. Pour une réponse, les données nécessaires sont transmises à ce service.
+133	Qui est derrière Glycodex ?⟦0⟧
+134	Moi, Lina Schröder, à titre privé. Glycodex est indépendant et n’a aucun lien avec les entreprises citées.
+135	Comment puis-je aider ?⟦0⟧
+136	Dites-moi ce qui vous manque dans vos données, et partagez Glycodex avec des personnes que cela pourrait intéresser. Si vous travaillez dans les technologies médicales, je serai ravie d’un premier échange.
+137	Parlons-en.
+138	Communauté
+139	Dites-moi ce qui vous manque dans vos données. Chaque retour rend Glycodex meilleur.
+140	Écrivez-moi
+141	Concept, prototype et le regard d’une patiente. Je vous envoie volontiers le profil synthétique.
+142	Demander le profil synthétique
+143	Comment Glycodex calcule et ce que montre le rapport est décrit dans une fiche d’information.
+144	Demander la fiche d’information
+145	Ou directement :
+146	⟦0⟧lina.schroeder@autarkflow.de
+147	Afficher le numéro de téléphone
+148	{{telText}}
+149	Votre messagerie va s’ouvrir
+150	Le message à lina.schroeder@autarkflow.de est prêt avec l’objet « {{mailSubject}} ». Pas de messagerie configurée ? Écrivez simplement directement à cette adresse.
+151	Merci de ne pas m’envoyer de données de santé comme des glycémies ou des résultats d’examens.
+152	Écrire un e-mail
+153	Continuer à m’informer
+154	⟦0⟧Instagram<span class="soon-b">bientôt</span>
+155	Accueil
+156	Mentions légales
+157	Confidentialité
+158	© 2026 Lina Schröder · Delitzsch, Allemagne
+159	Glycodex décrit des données et ne donne aucune recommandation de traitement ni de dose. Pas un dispositif médical. Indépendant des entreprises citées. En cas d’urgence : 112.
+160	Accueil Glycodex
+161	Navigation principale
+162	Changer le thème de couleurs
+163	Menu
+164	Vue d’ensemble de Glycodex avec le temps dans la cible
+165	Courbe de la journée avec glucose, insuline et activité
+166	Temps dans la cible dans la vue d’ensemble de Glycodex
+167	Analyse du mode Auto dans Glycodex
+168	Temps dans la cible avec repères de cible
+169	Pages du Codex personnel
+170	Dextro avec des suggestions de questions
+171	Autres pages
+172	Des calculs transparents. Une présentation apaisée.
+173	Glycodex est un journal privé du diabète que j’ai conçu et réalisé moi-même, en tant que patiente atteinte de diabète de type 1. Vous trouverez ici ce que l’application montre, comment elle calcule et ce qu’elle ne fait volontairement pas.
+174	Demander la fiche d’information
+175	Voir la méthodologie
+176	<b style="font-weight: 500">Important :</b> Glycodex décrit des données. L’application ne donne aucune recommandation de traitement ni de dose et n’est pas un dispositif médical. Elle formule les questions de réglage uniquement comme des questions à poser à l’équipe soignante.
+177	Ce que montre Glycodex
+178	Quatre domaines, une seule base de données.
+179	La base, ce sont les exports Glooko avec les données de YpsoPump, CamAPS FX et Dexcom G7. S’y ajoutent des saisies personnelles : humeur, notes, activité et tension artérielle.
+180	Vue d’ensemble
+181	Temps dans les plages, selon le consensus ou une plage cible personnelle, et profil glycémique (AGP).
+182	Journal
+183	Courbe de la journée avec glucose, bolus, basal, glucides, activité et saisies personnelles.
+184	Schémas · Clinique
+185	Indicateurs, événements, analyse des hypoglycémies, nuits et profils journaliers.
+186	04
+187	Schémas · Technique
+188	Analyse du mode Auto. Les événements sont déduits du basal et du glucose et ne figurent pas tels quels dans l’export.
+189	Méthodologie
+190	Comment Glycodex calcule.
+191	J’ai vérifié les indicateurs à l’aide d’un calcul de référence indépendant.
+192	Base
+193	Consensus international sur le temps dans la cible (Battelino et al., Diabetes Care 2019) et consensus sur les indicateurs CGM (Battelino et al., Lancet Diabetes Endocrinol 2023)
+194	Données requises
+195	Au moins 14 jours et 70 % de temps capteur. Sinon, l’application le signale.
+196	Événements
+197	Début et fin après 15 minutes. Hypoglycémie prolongée au-delà de 120 minutes. Hyperglycémie prolongée pour 90 minutes sur 120 au-dessus de 13,9 mmol/L.
+198	Valeurs dérivées
+199	GMI selon Bergenstal et al. 2018, GRI selon Klonoff et al. 2023
+200	Particularités des données
+201	Les valeurs au-dessus de la plage de mesure comptent comme « très élevées ». En cas de double enregistrement, la valeur de CamAPS s’applique.
+202	Plage cible
+203	Consensus (3,9 à 10,0 mmol/L) ou une plage cible personnelle librement réglable. Dans le rapport, le consensus reste la référence.
+204	Pour le rendez-vous
+205	Consulter plutôt que paperasser.
+206	Le rapport en PDF
+207	Pour les rendez-vous, Glycodex crée un rapport qui résume d’un coup d’œil les pages les plus importantes.
+208	Indicateurs selon le consensus
+209	Profil glycémique et moments de la journée
+210	Questions pour l’équipe soignante
+211	Profils journaliers
+212	Analyse du mode Auto
+213	Accès en lecture
+214	Identifiant personnel avec mot de passe. Consultation uniquement, aucune modification possible.
+215	Lien à usage unique
+216	Pour un seul rendez-vous. Le lien fonctionne une seule fois et donne ensuite accès pendant quelques heures.
+217	⟦0⟧Les données sont stockées chiffrées sur mon propre serveur. Je décide qui y a accès.
+218	Limites
+219	Ce que Glycodex n’est pas.
+220	Ni un dispositif médical ni un substitut à l’évaluation par l’équipe soignante
+221	Dépend de l’export manuel Glooko, pas de données en temps réel
+222	L’analyse du mode Auto est une observation déduite, pas une information du fabricant
+223	Les retours d’un point de vue professionnel sont les bienvenus.
+224	Je vous envoie volontiers la fiche d’information pour les équipes soignantes. Sur demande, je présente aussi Glycodex lors d’une démonstration en direct avec des données de test.
+225	Pour les entreprises de technologies médicales
+226	Les données du diabète vues par une patiente. Avec un prototype fonctionnel.
+227	Glycodex lit les exports Glooko et transforme les données de la pompe et du capteur en une vue d’ensemble apaisée et claire. J’utilise l’application chaque jour. Pour qu’elle puisse aider beaucoup de monde, je cherche des partenariats.
+228	Ce que je recherche
+229	Point de départ
+230	288 valeurs par jour. Affichées, mais à peine expliquées.
+231	Les portails existants affichent les valeurs, mais les expliquent à peine du point de vue des personnes qui vivent avec.
+232	La boucle fermée reste invisible
+233	Quand et comment l’algorithme intervient est difficile à suivre au quotidien.
+234	Bien-être et valeurs séparés
+235	Lors de mes recherches, je n’ai trouvé aucune application qui relie ainsi l’humeur, les notes et le quotidien aux valeurs mesurées.
+236	Circuit des données
+237	Avec CamAPS, les données passent par Glooko. Il n’y existe pas d’interface publique pour les particuliers, seulement l’export manuel.
+238	Où en est le projet
+239	Utilisé chaque jour
+240	Un prototype dans la vraie vie.
+241	Technique
+242	Application web sur un serveur privé, stockage chiffré, rôles, accès en lecture et liens à usage unique
+243	Données
+244	Export Glooko importé manuellement, complété par des saisies personnelles
+245	Appareils
+246	Testé avec YpsoPump, CamAPS FX et Dexcom G7
+247	Vérification
+248	Indicateurs vérifiés à l’aide d’un calcul de référence indépendant. Safari pas encore testé de manière systématique.
+249	Statut juridique
+250	Pas un dispositif médical, usage strictement personnel
+251	Toutes les fonctions sur la page d’accueil
+252	Pourquoi des partenariats
+253	Pour aider beaucoup de monde, il faut plus qu’une idée.
+254	Si je diffusais Glycodex, il s’agirait très probablement d’un dispositif médical. Cela nécessite une entreprise disposant d’un système de management de la qualité, d’une certification et d’un accès direct aux données des appareils.
+255	Ce que j’apporte
+256	Le regard de l’intérieur. Et le travail derrière.
+257	Le regard d’une patiente
+258	Le regard d’une patiente en boucle fermée qui veut comprendre ses données
+259	Un concept réfléchi
+260	Avec des principes, un système de marque et un langage cohérent
+261	Un prototype fonctionnel
+262	Utilisé chaque jour et développé en continu
+263	Réalisation assistée par IA
+264	Expérience en conception et en design, à titre professionnel dans le cadre d’une activité indépendante déclarée
+265	05
+266	Proche de la communauté
+267	Le projet d’aller à la rencontre de la communauté diabète sur les réseaux sociaux
+268	06
+269	Documenté
+270	J’envoie volontiers sur demande le manuel détaillé retraçant la création.
+271	Comment Glycodex est né
+272	En autonomie, pas à pas.
+273	Réalisé avec Claude d’Anthropic. L’idée, les exigences, le design, les tests et la validation de chaque version relevaient de moi.
+274	Recherche avant la réalisation
+275	Difficultés des personnes diabétiques, applications existantes, réglementation des dispositifs médicaux, règlement européen sur l’IA et protection des données
+276	Définir des principes
+277	Protection des données d’abord, décrire plutôt que juger, aucune recommandation de dose, design apaisé
+278	Développer la marque
+279	Nom, logo et un système de marque propre avec couleurs, typographie et langage
+280	4
+281	Réaliser par cycles courts
+282	Notes du quotidien, propositions et questions, réalisation, vérification, validation
+283	Exploiter en toute sécurité
+284	Serveur et domaine privés, connexion, rôles, liens à usage unique et chiffrement
+285	6
+286	Peaufinage
+287	Trois cycles de design. Avant et après chaque modification, tous les chiffres affichés ont été comparés.
+288	Un premier échange.
+289	Je présente volontiers Glycodex lors d’une démonstration en direct avec des données de test. Beaucoup de choses sont envisageables, par exemple :
+290	un échange professionnel
+291	une collaboration sur une interface pour les personnes diabétiques
+292	une licence
+293	un partenariat pour poursuivre le développement
+294	Parlons de Glycodex.
+295	Je vous envoie volontiers le profil synthétique pour les entreprises de technologies médicales.
