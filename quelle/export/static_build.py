@@ -14,6 +14,8 @@ OUT = "/home/claude/site/dist/"
 HERE = "/home/claude/site/"
 FONT = "/home/claude/fontpkg/x/package/"
 NOINDEX = True  # bis zur Freigabe unsichtbar
+UMAMI_ID = None  # Website-ID aus Umami, sobald angelegt
+UMAMI_HOST = "https://stats.glycodex.de"
 
 PAGES = ["Main", "Fachkreise", "Partner", "Impressum", "Datenschutz"]
 LANGS = ["de", "en", "fr", "uk"]
@@ -149,6 +151,8 @@ def page_html(page, lang):
         '<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">\n'
         '<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">\n'
         '<link rel="preload" href="/assets/fonts/google-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
+        + (('<script defer src="%s/script.js" data-website-id="%s" data-domains="glycodex.de" data-do-not-track="true"></script>\n' % (UMAMI_HOST, UMAMI_ID)) if UMAMI_ID else '') +
+        ''
         '<link rel="stylesheet" href="/assets/fonts.css">\n'
         '<link rel="stylesheet" href="%s">\n</head>\n<body>\n'
         '<div id="gx-app"><!--PRERENDER--></div>\n'
