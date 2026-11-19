@@ -13,7 +13,7 @@ SRC = "/home/claude/web/project/"
 OUT = "/home/claude/site/dist/"
 HERE = "/home/claude/site/"
 FONT = "/home/claude/fontpkg/x/package/"
-NOINDEX = True  # bis zur Freigabe unsichtbar
+NOINDEX = False  # öffentlich seit 19.11.2026
 UMAMI_ID = "39ac9af5-8920-4e49-b50c-1ceeb03029c5"  # Website-ID aus Umami
 UMAMI_HOST = "https://stats.glycodex.de"
 
@@ -106,6 +106,7 @@ def assets():
     open(OUT + "assets/fonts.css", "w", encoding="utf-8").write("\n".join(faces) + "\n")
     shutil.copy(FONT + "LICENSE", OUT + "assets/fonts/OFL.txt")
     shutil.copy(HERE + "src/gx-runtime.js", OUT + "assets/gx-runtime.js")
+    shutil.copy(HERE + "src/stats.js", OUT + "assets/stats.js")
 
 
 def rewrite_links(html, lang):
@@ -152,7 +153,7 @@ def page_html(page, lang):
         '<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">\n'
         '<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">\n'
         '<link rel="preload" href="/assets/fonts/google-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
-        + (('<script defer src="%s/script.js" data-website-id="%s" data-domains="glycodex.de" data-do-not-track="true"></script>\n' % (UMAMI_HOST, UMAMI_ID)) if UMAMI_ID else '') +
+        + ('<script defer src="/assets/stats.js"></script>\n' if UMAMI_ID else '') +
         ''
         '<link rel="stylesheet" href="/assets/fonts.css">\n'
         '<link rel="stylesheet" href="%s">\n</head>\n<body>\n'
