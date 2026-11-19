@@ -22,6 +22,8 @@ services:
     volumes:
       - site:/srv
     network_mode: bridge
+    labels:
+      - traefik.enable=false
   web:
     image: nginx:1.27-alpine
     restart: always
