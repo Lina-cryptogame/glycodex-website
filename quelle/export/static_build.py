@@ -55,7 +55,7 @@ DESC = {
 NOT_FOUND = """<!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Seite nicht gefunden – Glycodex</title><meta name="robots" content="noindex">
-<link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="/assets/fonts.css">
+<link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png"><link rel="stylesheet" href="/assets/fonts.css">
 <style>
 body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f2f2f7;color:#1c1c1e;font-family:'Google Sans',system-ui,sans-serif;text-align:center;padding:24px;box-sizing:border-box}
 @media (prefers-color-scheme: dark){body{background:#000;color:#f5f5f7}a.b{background:#8e8bff;color:#000}p{color:#a1a1a8}}
@@ -90,8 +90,18 @@ def assets():
             im = Image.open(path).convert("RGB")
             im.save(OUT + "assets/img/%s.webp" % name, "WEBP", quality=84, method=6)
     shutil.copy("/home/claude/handbuch/img/icon.svg", OUT + "assets/img/logo.svg")
-    shutil.copy("/home/claude/handbuch/img/icon180.png", OUT + "assets/img/apple-touch-icon.png")
-    Image.open("/home/claude/handbuch/img/icon180.png").convert("RGBA").save(OUT + "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
+    ic = HERE + "icons/"
+    shutil.copy(ic + "icon-180.png", OUT + "assets/img/apple-touch-icon.png")
+    shutil.copy(ic + "icon-32.png", OUT + "assets/img/favicon-32.png")
+    shutil.copy(ic + "icon-192.png", OUT + "assets/img/icon-192.png")
+    shutil.copy(ic + "icon-512.png", OUT + "assets/img/icon-512.png")
+    Image.open(ic + "icon-48.png").save(OUT + "favicon.ico", sizes=[(16, 16), (32, 32), (48, 48)])
+    shutil.copy(ic + "icon-180.png", OUT + "apple-touch-icon.png")
+    open(OUT + "site.webmanifest", "w", encoding="utf-8").write(json.dumps({
+        "name": "Glycodex", "short_name": "Glycodex", "start_url": "/", "display": "browser",
+        "background_color": "#f2f2f7", "theme_color": "#5b57d9",
+        "icons": [{"src": "/assets/img/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                  {"src": "/assets/img/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False))
     # Schrift: nur Latein und Kyrillisch, als variable Schrift
     css = open(FONT + "wght.css", encoding="utf-8").read()
     faces = []
@@ -148,8 +158,11 @@ def page_html(page, lang):
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
         '<title>%s</title>\n<meta name="description" content="%s">\n%s\n'
         '<link rel="canonical" href="https://glycodex.de%s">\n%s\n'
-        '<link rel="icon" href="/assets/img/logo.svg" type="image/svg+xml">\n'
-        '<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">\n'
+        '<link rel="icon" href="/favicon.ico" sizes="48x48">\n'
+        '<link rel="icon" href="/assets/img/favicon-32.png" type="image/png" sizes="32x32">\n'
+        '<link rel="icon" href="/assets/img/icon-192.png" type="image/png" sizes="192x192">\n'
+        '<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" sizes="180x180">\n'
+        '<link rel="manifest" href="/site.webmanifest">\n'
         '<meta name="theme-color" content="#f2f2f7" media="(prefers-color-scheme: light)">\n'
         '<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">\n'
         '<link rel="preload" href="/assets/fonts/google-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>\n'
