@@ -14,7 +14,7 @@ OUT = "/home/claude/site/dist/"
 HERE = "/home/claude/site/"
 FONT = "/home/claude/fontpkg/x/package/"
 NOINDEX = True  # bis zur Freigabe unsichtbar
-UMAMI_ID = None  # Website-ID aus Umami, sobald angelegt
+UMAMI_ID = "39ac9af5-8920-4e49-b50c-1ceeb03029c5"  # Website-ID aus Umami
 UMAMI_HOST = "https://stats.glycodex.de"
 
 PAGES = ["Main", "Fachkreise", "Partner", "Impressum", "Datenschutz"]
