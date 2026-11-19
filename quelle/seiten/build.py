@@ -15,9 +15,9 @@ CODES = {"de": "DE", "en": "EN", "fr": "FR", "uk": "УКР"}
 
 # Zusätze, die nicht aus den deutschen Segmenten kommen
 EXTRA = {
-    "en": {"Sprache wählen": "Choose language"},
-    "fr": {"Sprache wählen": "Choisir la langue"},
-    "uk": {"Sprache wählen": "Вибрати мову"},
+    "en": {"Sprache wählen": "Choose language", "Glycodex auf Instagram, öffnet in neuem Tab": "Glycodex on Instagram, opens in a new tab", "⟦0⟧Instagram": "⟦0⟧Instagram"},
+    "fr": {"Sprache wählen": "Choisir la langue", "Glycodex auf Instagram, öffnet in neuem Tab": "Glycodex sur Instagram, s’ouvre dans un nouvel onglet", "⟦0⟧Instagram": "⟦0⟧Instagram"},
+    "uk": {"Sprache wählen": "Вибрати мову", "Glycodex auf Instagram, öffnet in neuem Tab": "Glycodex в Instagram, відкривається в новій вкладці", "⟦0⟧Instagram": "⟦0⟧Instagram"},
 }
 TITLES = {
     "en": {"Glycodex – Privates Diabetes-Tagebuch": "Glycodex – Private diabetes diary",

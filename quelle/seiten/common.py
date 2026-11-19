@@ -366,9 +366,9 @@ def footer(page):
 
 
 def insta():
-    # Platzhalter, bis das Instagram-Konto steht: dann wird daraus ein Link.
-    return ('<span class="btn btn-s soon">' + ico(ICONS["kamera"]).replace('class="ico"', 'class="ico" style="width: 18px; height: 18px; color: currentColor"')
-            + 'Instagram<span class="soon-b">folgt bald</span></span>')
+    return ('<a class="btn btn-s" href="https://www.instagram.com/glycodex.de/" target="_blank" rel="noopener" aria-label="Glycodex auf Instagram, öffnet in neuem Tab">'
+            + ico(ICONS["kamera"]).replace('class="ico"', 'class="ico" style="width: 18px; height: 18px; color: currentColor"')
+            + 'Instagram</a>')
 
 
 def phone_reveal(cls="btn btn-s btn-l"):
